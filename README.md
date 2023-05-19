@@ -8,7 +8,7 @@ This is a simple Laravel web application for task management. It allows you to c
 
 Make sure you have the following software installed on your machine:
 
-- PHP (7.4 or higher)
+- PHP (8.0 or higher)
 - Composer
 - MySQL
 - Web server (e.g., Apache or Nginx)
@@ -18,13 +18,13 @@ Make sure you have the following software installed on your machine:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone <repository-url>
+   git clone https://github.com/blingyplus/task-manager.git
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd laravel-task-management
+   cd task-manager
    ```
 
 3. Install the dependencies using Composer:
