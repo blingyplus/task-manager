@@ -18,5 +18,5 @@ Route::resource('tasks', TaskController::class);
 Route::post('/tasks/update-order', [TaskController::class, 'updateOrder'])->name('tasks.updateOrder');
 
 Route::get('/', function () {
-    return view('tasks');
+    return redirect('tasks');
 });
